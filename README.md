@@ -1,12 +1,23 @@
-# MARS
-MARS (official) MIPS Assembler and Runtime Simulator
 
- MARS is a lightweight interactive development environment (IDE) for programming in MIPS assembly language, intended for educational-level use with Patterson and Hennessy's Computer Organization and Design.
 
- It is available for you to download as an executable JAR file.  Click the MARS v.4.5 link at right, under Releases, to access the download.
+# Modified MARS (MIPS Assembler and Runtime Simulator)
 
- We have relocated the MARS website to  https://dpetersanderson.github.io/    There are still a couple of display issues to work out but all website content is there.  This includes all documentation and the JAR download.  We are not experienced in github so if you know a way we can host the website in this MARS repository let us know.
+## Overview
+This repository contains a modified version of **MARS**, the MIPS Assembler and Runtime Simulator. This modification was developed solely for **educational purposes** to support operating systems courses and low-level debugging activities.
 
- This is the original MARS, developed by Pete Sanderson and Ken Vollmar.  Developed while Pete was professor at Otterbein University and Ken was professor at Missouri State University.  Both are now retired. This is a legacy application but is very stable and continues to be used by universities throughout the world as of 2024. The last release was MARS 4.5 in August 2014.  
- 
- Until October 2024 the MARS website, including executable JAR file download, was hosted by Missouri State University. That is no longer the case. That's why it is here.
+## Key Modification: Kernel Memory Dump
+The primary enhancement in this version is the ability to **dump the kernel memory state**. This feature allows students and instructors to inspect the kernel's memory content during execution, facilitating a deeper understanding of OS memory management and exception handling on the MIPS architecture.
+
+## Original Credits & Attribution
+This software is a fork of the original MARS simulator. All credit for the original application goes to its creators:
+
+* **Pete Sanderson** (Otterbein University)
+* **Ken Vollmar** (Missouri State University)
+
+The original project can be found here: [MARS on GitHub](https://dpetersanderson.github.io/)
+
+## Disclaimer
+This is an educational modification and is not affiliated with the original MARS development team. It is provided "as is" for learning purposes.
+
+## License
+MARS is released under the MIT License.
